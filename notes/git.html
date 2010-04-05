@@ -17,6 +17,22 @@
 			<h1>Create local copy of an existing remote repository</h1>
 			<code>git clone git://github.com/phuocbuddy/test.git</code>
 		</section>
+		<section>
+			<h1>Commit changes to local repository</h1>
+			<code>git add &lt;file_name&gt; or &lt;directory_name&gt;</code>
+			<code>git push</code>
+			<p>The above may display an error</p>
+			<pre>
+fatal: protocol error: expected sha/ref, got 'ERR 
+  You can't push to git://github.com/phuocbuddy/test.git
+  Use git@github.com:phuocbuddy/test.git'
+			</pre>
+			<p>Fix the erro with the second line.</p>
+		</section>
+		<section>
+			<h1>Branch</h1>
+			<code>git checkout -b &lt;branch_name&gt;</code>
+		</section>
 	</article>
 	<footer>
 		<p>This is a footer</p>
